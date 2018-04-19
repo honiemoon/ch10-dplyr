@@ -33,7 +33,7 @@ cars_1997 <-[order(cars_1997$hwy), ]
 
 # Mutate the 1997 cars data frame to add a column `average` that has the average
 # gas milage (between city and highway mpg) for each car
-cars_1997$average <- (cars_1997$cty + cars_1997$hwy) / 2
+cars_1997$averages <- (cars_1997$cty + cars_1997$hwy) / 2
 
 # Filter the whole vehicles data set for 2-Wheel Drive vehicles that get more
 # than 20 miles/gallon in the city. 
